@@ -1,0 +1,50 @@
+[
+  {
+    "directory": "/home/juan/Projects/projectUAS/build",
+    "command": "valac -C --debug --debug --pkg libsoup-2.4 --pkg gtk4 --color=always --directory src/projectuas.p --basedir ../src --gresources=../src/projectuas.gresource.xml --target-glib=2.50 ../src/main.vala ../src/application.vala ../src/login.vala ../src/forum.vala ../src/create.vala ../src/register.vala",
+    "file": "../src/main.vala",
+    "output": "src/projectuas.p/main.c"
+  },
+  {
+    "directory": "/home/juan/Projects/projectUAS/build",
+    "command": "cc -Isrc/projectuas.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -g -pthread -mfpmath=sse -msse -msse2 -MD -MQ src/projectuas.p/meson-generated_.._projectuas-resources.c.o -MF src/projectuas.p/meson-generated_.._projectuas-resources.c.o.d -o src/projectuas.p/meson-generated_.._projectuas-resources.c.o -c src/projectuas-resources.c",
+    "file": "src/projectuas-resources.c",
+    "output": "src/projectuas.p/meson-generated_.._projectuas-resources.c.o"
+  },
+  {
+    "directory": "/home/juan/Projects/projectUAS/build",
+    "command": "cc -Isrc/projectuas.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -g -pthread -mfpmath=sse -msse -msse2 -MD -MQ src/projectuas.p/meson-generated_main.c.o -MF src/projectuas.p/meson-generated_main.c.o.d -o src/projectuas.p/meson-generated_main.c.o -c src/projectuas.p/main.c",
+    "file": "src/projectuas.p/main.c",
+    "output": "src/projectuas.p/meson-generated_main.c.o"
+  },
+  {
+    "directory": "/home/juan/Projects/projectUAS/build",
+    "command": "cc -Isrc/projectuas.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -g -pthread -mfpmath=sse -msse -msse2 -MD -MQ src/projectuas.p/meson-generated_application.c.o -MF src/projectuas.p/meson-generated_application.c.o.d -o src/projectuas.p/meson-generated_application.c.o -c src/projectuas.p/application.c",
+    "file": "src/projectuas.p/application.c",
+    "output": "src/projectuas.p/meson-generated_application.c.o"
+  },
+  {
+    "directory": "/home/juan/Projects/projectUAS/build",
+    "command": "cc -Isrc/projectuas.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -g -pthread -mfpmath=sse -msse -msse2 -MD -MQ src/projectuas.p/meson-generated_login.c.o -MF src/projectuas.p/meson-generated_login.c.o.d -o src/projectuas.p/meson-generated_login.c.o -c src/projectuas.p/login.c",
+    "file": "src/projectuas.p/login.c",
+    "output": "src/projectuas.p/meson-generated_login.c.o"
+  },
+  {
+    "directory": "/home/juan/Projects/projectUAS/build",
+    "command": "cc -Isrc/projectuas.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -g -pthread -mfpmath=sse -msse -msse2 -MD -MQ src/projectuas.p/meson-generated_forum.c.o -MF src/projectuas.p/meson-generated_forum.c.o.d -o src/projectuas.p/meson-generated_forum.c.o -c src/projectuas.p/forum.c",
+    "file": "src/projectuas.p/forum.c",
+    "output": "src/projectuas.p/meson-generated_forum.c.o"
+  },
+  {
+    "directory": "/home/juan/Projects/projectUAS/build",
+    "command": "cc -Isrc/projectuas.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -g -pthread -mfpmath=sse -msse -msse2 -MD -MQ src/projectuas.p/meson-generated_create.c.o -MF src/projectuas.p/meson-generated_create.c.o.d -o src/projectuas.p/meson-generated_create.c.o -c src/projectuas.p/create.c",
+    "file": "src/projectuas.p/create.c",
+    "output": "src/projectuas.p/meson-generated_create.c.o"
+  },
+  {
+    "directory": "/home/juan/Projects/projectUAS/build",
+    "command": "cc -Isrc/projectuas.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -g -pthread -mfpmath=sse -msse -msse2 -MD -MQ src/projectuas.p/meson-generated_register.c.o -MF src/projectuas.p/meson-generated_register.c.o.d -o src/projectuas.p/meson-generated_register.c.o -c src/projectuas.p/register.c",
+    "file": "src/projectuas.p/register.c",
+    "output": "src/projectuas.p/meson-generated_register.c.o"
+  }
+]

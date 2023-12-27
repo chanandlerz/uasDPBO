@@ -1,0 +1,146 @@
+Build started at 2023-12-27T08:16:00.583307
+Main binary: /usr/bin/python3
+Build Options: -Dbackend=ninja
+Python system: Linux
+The Meson build system
+Version: 0.61.2
+Source dir: /home/juan/Projects/projectUAS
+Build dir: /home/juan/Projects/projectUAS/build
+Build type: native build
+Project name: projectuas
+Project version: 0.1.0
+C compiler for the host machine: cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C linker for the host machine: cc ld.bfd 2.38
+Vala compiler for the host machine: valac (valac 0.56.0)
+C compiler for the build machine: cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C linker for the build machine: cc ld.bfd 2.38
+Vala compiler for the build machine: valac (valac 0.56.0)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program desktop-file-validate found: YES (/usr/bin/desktop-file-validate)
+Adding test "Validate desktop file"
+Program appstream-util found: NO
+Program glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Adding test "Validate schema file"
+Dependency gtk4 found: YES 4.6.9 (cached)
+Dependency libsoup-2.4 found: YES 2.74.2 (cached)
+Pkg-config binary for 0 is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/bin/pkg-config (0.29.2)
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+2.72.4
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs glib-2.0` -> 0
+-L/usr/lib/x86_64-linux-gnu -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs glib-2.0` -> 0
+-lglib-2.0
+Running compile:
+Working directory:  /home/juan/Projects/projectUAS/build/meson-private/tmpgk63ahsj
+Command line:  cc /home/juan/Projects/projectUAS/build/meson-private/tmpgk63ahsj/testfile.c -o /home/juan/Projects/projectUAS/build/meson-private/tmpgk63ahsj/output.exe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/juan/Projects/projectUAS/build/meson-private/tmppdtkn2t9
+Command line:  cc /home/juan/Projects/projectUAS/build/meson-private/tmppdtkn2t9/testfile.c -o /home/juan/Projects/projectUAS/build/meson-private/tmppdtkn2t9/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/11/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/11/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/11/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Program glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.72.4 (cached)
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --variable=glib_compile_schemas gio-2.0` -> 0
+/usr/bin/glib-compile-schemas
+Got pkgconfig variable glib_compile_schemas : /usr/bin/glib-compile-schemas
+Program glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Dependency gtk4 found: YES 4.6.9 (cached)
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --variable=gtk4_update_icon_cache gtk4` -> 0
+
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --print-variables gtk4` -> 0
+gtk_binary_version
+gtk_host
+includedir
+libdir
+pcfiledir
+prefix
+targets
+WARNING: pkgconfig variable 'gtk4_update_icon_cache' not defined for dependency gtk4.
+Got pkgconfig variable gtk4_update_icon_cache : 
+Program gtk4-update-icon-cache found: YES (/usr/bin/gtk4-update-icon-cache)
+Pkg-config binary for 0 is cached.
+Determining dependency 'desktop-file-utils' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion desktop-file-utils` -> 1
+
+CMake binary for 0 is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Did not find CMake 'cmake'
+Found CMake: NO
+CMake binary for machine 0 not found. Giving up.
+Build-time dependency desktop-file-utils found: NO (tried pkgconfig and cmake)
+Program update-desktop-database found: YES (/usr/bin/update-desktop-database)
+Build targets in project: 8
+
+projectuas 0.1.0
+
+  User defined options
+    backend: ninja
+
+Found ninja-1.10.1 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/juan/Projects/projectUAS/build/meson-private/tmps48l5l94
+Command line:  cc /home/juan/Projects/projectUAS/build/meson-private/tmps48l5l94/testfile.c -o /home/juan/Projects/projectUAS/build/meson-private/tmps48l5l94/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/11/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/11/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/11/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Failed to guess install tag for /usr/local/share/glib-2.0/schemas/org.example.App.gschema.xml
+Failed to guess install tag for /usr/local/share/icons/hicolor/scalable/apps/org.example.App.svg
+Failed to guess install tag for /usr/local/share/icons/hicolor/symbolic/apps/org.example.App-symbolic.svg
+Failed to guess install tag for /usr/local/share/glib-2.0/schemas/org.example.App.gschema.xml
+Failed to guess install tag for /usr/local/share/icons/hicolor/scalable/apps/org.example.App.svg
+Failed to guess install tag for /usr/local/share/icons/hicolor/symbolic/apps/org.example.App-symbolic.svg
